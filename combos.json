@@ -1,0 +1,13 @@
+{
+  "mode": "queue",
+  "replay": "",
+  "isRealTimeMode": false,
+  "outputOverlayFiles": true,
+  "queue": [
+    {
+      "path": null,
+      "startFrame": -120,
+      "endFrame": 61
+    }
+  ]
+}
