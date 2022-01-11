@@ -3,13 +3,16 @@
   "version": "0.0.0",
   "description": "A bot that responds to Slippi events",
   "main": "index.js",
+  "type": "module",
   "repository": "https://github.com/ycz/ycz-slippi-bot.git",
   "author": "Leon Zhou <yczleon@gmail.com>",
   "license": "MIT",
   "dependencies": {
     "@slippi/slippi-js": "^6.1.3",
     "@vinceau/slp-realtime": "^3.2.0",
-    "rxjs": "^7.5.1"
+    "dotenv": "^10.0.0",
+    "rxjs": "^7.5.1",
+    "tmi.js": "^1.8.5"
   },
   "scripts": {
     "start": "node ."
